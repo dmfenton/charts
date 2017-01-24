@@ -1,3 +1,18 @@
 apiVersion: v1
-entries: {}
-generated: 2017-01-24T12:48:26.649398273-05:00
+entries:
+  elasticsearch:
+  - created: 2017-01-24T12:53:39.309428371-05:00
+    description: Elasticsearch chart for Kubernetes
+    digest: b88c70817effb546356a8a66816b3df3a122dc6b2169326fb5fce93604f56313
+    home: https://www.elastic.co/products/elasticsearch
+    maintainers:
+    - email: christian@jetstack.io
+      name: Christian Simon
+    name: elasticsearch
+    sources:
+    - https://www.elastic.co/products/elasticsearch
+    - https://github.com/jetstack/elasticsearch-pet
+    urls:
+    - elasticsearch-0.1.2.tgz
+    version: 0.1.2
+generated: 2017-01-24T12:53:39.308658056-05:00
