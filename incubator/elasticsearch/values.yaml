@@ -7,8 +7,8 @@ Name: es
 PeerPort: 2380
 ClientPort: 2379
 Component: "elasticsearch"
-Image: "jetstack/elasticsearch-pet"
-ImageTag: "2.3.5"
+Image: "dmfenton/elasticsearch-pet"
+ImageTag: "latest"
 ImagePullPolicy: "Always"
 ClientReplicas: 2
 ClientCpuRequests: "25m"
